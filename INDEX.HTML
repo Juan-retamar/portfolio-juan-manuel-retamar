@@ -1,0 +1,142 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Juan Manuel Retamar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Encabezado y Navegación -->
+    <header class="bg-gray-900 text-white py-6 mb-8">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+            <div class="flex items-center gap-3 mb-4 md:mb-0">
+             <img src="d:\PROYECTO TP FINAL 1\image\imagen manuel.jpeg" alt="Avatar de Juan Manuel Retamar" class="w-36 h-36 rounded-full border-4 border-cyan-400 object-cover">
+                <span class="font-bold text-lg">Juan Manuel Retamar</span>
+            </div>
+            <nav>
+                <ul class="flex flex-wrap gap-4">
+                    <li><a href="#presentacion" class="hover:text-cyan-400 transition">Presentación</a></li>
+                    <li><a href="#experiencia" class="hover:text-cyan-400 transition">Experiencia</a></li>
+                    <li><a href="#habilidades" class="hover:text-cyan-400 transition">Habilidades</a></li>
+                    <li><a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a></li>
+                    <li><a href="#redes" class="hover:text-cyan-400 transition">Redes & CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección de Presentación Personal -->
+        <section id="presentacion" class="bg-white rounded-lg shadow-md py-12 mb-8">
+            <div class="container mx-auto flex flex-col md:flex-row items-center gap-8 px-4">
+                <img src="image/imagen manuel.jpeg" alt="Avatar de Juan Manuel Retamar" class="w-36 h-36 rounded-full border-4 border-cyan-400 object-cover">
+                <div>
+                    <h1 class="text-3xl font-bold mb-2">Juan Manuel Retamar</h1>
+                    <h2 class="text-cyan-600 text-xl mb-4">Desarrollador Web Junior</h2>
+                    <p>
+                        Bienvenidos, Soy Juan Manuel, un desarrollador web junior con experiencia en la creación de sitios . Me destaco por mi curiosidad,  capacidad de aprendizaje y por sobre todo, compromiso con la calidad y la innovación.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia -->
+        <section id="experiencia" class="bg-white rounded-lg shadow-md py-12 mb-8">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-cyan-600 mb-6">Experiencia</h2>
+                <div class="flex flex-col gap-6">
+                    <div class="bg-gray-100 rounded-lg p-6 shadow">
+                        <h3 class="font-semibold text-lg">Prácticas Profesionales - WebDev Solutions</h3>
+                        <span class="text-cyan-600 text-sm block mb-2">Marzo 2024 - Julio 2024</span>
+                        <p>
+                            Desarrollo y mantenimiento de sitios web  utilizando HTML, CSS y JavaScript. 
+                        </p>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Habilidades -->
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-cyan-600 mb-6">Habilidades</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/HTML.LOGO.jpg alt="HTML5" class="w-10 h-10 mb-2">
+                        <span>HTML5</span>
+                    </div>
+                   
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/JS.LOG.jpg alt="JavaScript" class="w-10 h-10 mb-2">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/git-logo.png alt="Git" class="w-10 h-10 mb-2">
+                        <span>Git</span>
+                    </div>
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/github_logo.png alt="GitHub" class="w-10 h-10 mb-2">
+                        <span>GitHub</span>
+                    </div>
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/react-logo.png alt="React" class="w-10 h-10 mb-2">
+                        <span>React (básico)</span>
+                    </div>
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/node-js-logo-.png alt="Node.js" class="w-10 h-10 mb-2">
+                        <span>Node.js (básico)</span>
+                    </div>
+                    <div class="flex flex-col items-center bg-gray-100 rounded-lg p-4">
+                        <img src=image/responsive-logo.jpg alt="Responsive" class="w-10 h-10 mb-2">
+                        <span>Diseño Responsivo</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="bg-white rounded-lg shadow-md py-12 mb-8">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-cyan-600 mb-6">Contacto</h2>
+                <form class="max-w-md mx-auto flex flex-col gap-4">
+                    <label for="nombre" class="font-semibold">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required class="border border-gray-300 rounded px-3 py-2">
+
+                    <label for="email" class="font-semibold">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required class="border border-gray-300 rounded px-3 py-2">
+
+                    <label for="mensaje" class="font-semibold">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required class="border border-gray-300 rounded px-3 py-2"></textarea>
+
+                    <button type="submit" class="bg-cyan-600 text-white rounded px-4 py-2 font-bold hover:bg-cyan-700 transition">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales y CV -->
+        <section id="redes" class="bg-white rounded-lg shadow-md py-12 mb-8">
+            <div class="container mx-auto px-4">
+                <h2 class="text-2xl font-bold text-cyan-600 mb-6">Redes & CV</h2>
+                <div class="flex flex-wrap gap-6 justify-center">
+                    <a href="https://github.com/tuusuario" target="_blank" class="flex items-center gap-2 bg-gray-100 rounded-lg px-4 py-2 hover:bg-cyan-100 transition">
+                        <img src="icon-github.png" alt="GitHub" class="w-7 h-7"> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank" class="flex items-center gap-2 bg-gray-100 rounded-lg px-4 py-2 hover:bg-cyan-100 transition">
+                        <img src="icon-linkedin.png" alt="LinkedIn" class="w-7 h-7"> LinkedIn
+                    </a>
+                    <a href="CV-Juan-Retamar.pdf" download class="flex items-center gap-2 bg-gray-100 rounded-lg px-4 py-2 hover:bg-cyan-100 transition">
+                        <img src="icon-cv.png" alt="CV" class="w-7 h-7"> Descargar CV
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Juan Manuel Retamar | Portfolio Web Junior</p>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
